@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--DAMIÁN CRUZ Y NICOLT CÓRDOVA-->
+<html>
+    <head>
+        <title>Desafío CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://kit.fontawesome.com/9f2c072365.js"></script>
+    </head>
+    <body>
+        <header>
+            <section class="cabecera">
+                <p id="logo">CSS</p>
+                <input type="checkbox" id="check">
+                <label for="check" class="menuIcon">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <nav class="menu">
+                    <ul class="elementos">
+                        <li>
+                            <a href="#what">¿Qu&eacute; es CSS?</a>
+                        </li>
+                        <li>
+                            <a href="#why">¿Por qu&eacute; se utiliza CSS?</a>
+                        </li>
+                        <li>
+                            <a href="#sintax">Sintasix CSS</a>
+                        </li>
+                        <li>
+                            <a href="#tables">Resumen de tablas</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <h1>CSS TUTORIAL</h1>
+        <div id="imagenPrincipal">
+            <img src="imagenes/css.png" alt="css">
+        </div>
+        <div id="what">
+            <h3>¿Qué es CSS?</h3>
+            <ul class="contenido margen">
+                <li>
+                    CSS significa hojas de estilo en cascada.
+                </li>		
+                <li>CSS describe cómo se mostrarán los elementos HTML en la
+                    pantalla, en papel o en otros medios.
+                </li>
+                <li>CSS ahorra mucho trabajo. Puede controlar el diseño de 
+                    varias páginas web a la vez.
+                </li>
+                <li>Las hojas de estilo externas se almacenan en archivos CSS.
+                </li>
+            </ul>
+        </div>
+        <div class="imagenes">
+            <div class="imagen">
+                <img src="imagenes/diseño-responsive.jpg" alt="diseño-responsive">
+            </div>
+            <div class="imagen2">
+                <img src="imagenes/diseñador.jpg" alt="diseñador">
+            </div>
+        </div>
+				
+        <div id="why">
+            <h3>¿Por qué se utiliza CSS?</h3>
+            <p class="contenido margen">
+                CSS se utiliza para definir estilos para sus páginas
+                web, incluido: el diseño, el diseño y las variaciones
+                en la visualización de diferentes dispositivos y tamaños 
+                de pantalla.
+            </p>
+        </div>
+
+        <div id="sintax">
+            <h3>Sintaxix CSS</h3>
+            <p class="contenido margen">Un conjunto de reglas CSS consta de 
+                un selector y un bloque de declaración. Pulsa la imagen para ver
+                un video.</p>
+            <a href="https://www.youtube.com/watch?v=xOhS2sEsEPo"
+               target="_blank">
+                <img id="sintaxis" src="imagenes/sintaxis.png" alt="Selector">
+            </a>
+        </div>
+	 
+        <div id="tables">
+            <h3>Resumen de tablas</h3>
+            <section id="tabla">
+                <table>    
+                    <tr>
+			<th></th>
+                        <th>TABLA</th>
+                        <th id="tr">TR</th>
+                        <th>TD</th>
+                        <th>TH</th>
+                    </tr>
+
+                    <tr>    
+                        <th>BORDER</th>
+                        <td><img src="imagenes/correcto.png" alt="Visto Bueno"></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+		
+                    <tr>    
+                        <th>ROWSPAN</th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td><img src="imagenes/correcto.png" alt="Visto Bueno"></td>
+                        <td><img src="imagenes/correcto.png" alt="Visto Bueno"></td>
+                    </tr>
+
+                    <tr>    
+                        <th>COLSPAN</th>
+                        <td>-</td>
+                        <td>-</td>
+                        <td><img src="imagenes/correcto.png" alt="Visto Bueno"></td>
+                        <td><img src="imagenes/correcto.png" alt="Visto Bueno"></td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </body>
+</html>
